@@ -25,7 +25,10 @@ import { AutosService } from './autos.service'
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule
   ],
   providers: [AutosService],
   bootstrap: [AppComponent]

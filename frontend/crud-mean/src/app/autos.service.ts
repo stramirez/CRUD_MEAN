@@ -18,7 +18,7 @@ export class AutosService {
   }
 
   listarAutos(){
-    return this.http.get<any>(this.urlGeneral+"listaAutos/")
+    return this.http.get<any>(this.urlGeneral+"/listaAutos/")
   }
 
   eliminarAuto(auto: any){
